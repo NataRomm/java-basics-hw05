@@ -1,5 +1,10 @@
-public class Swallow {
-  // TODO fix class declaration
+public class Swallow extends FlyingBird {
 
-  // TODO override toString method by returning a string with the class name
+  public String toString() {
+      return "Swallow";
+  }
+
+    public void eat() {
+        System.out.println("Swallow is eating");
+    }
 }

@@ -1,7 +1,6 @@
-public class FlyingBird {
-  // TODO fix class declaration
+public abstract class FlyingBird<T> extends Bird {
+  public boolean isFlying () {
+    return true;
+  };
 
-  public void checkWings() {
-    // TODO print a message that bird wings are checked
-  }
 }
